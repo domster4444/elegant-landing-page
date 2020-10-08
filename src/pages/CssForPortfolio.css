@@ -1,0 +1,182 @@
+h2{
+	font-weight: 700 !important;
+	font-size: 30px !important;
+	margin:0 0 20px;
+	text-transform: uppercase;
+}
+.text-center{
+/* assume it as margin top of buttons */
+	padding: 132px 0px 0px 0px;
+}
+
+ul{
+	margin:0;
+	list-style-type: none;
+}
+
+
+#filter-list{
+	display: inline-block;
+	border-radius: 30px;
+	padding: 4px;
+	/* vertical distance between image container and buttons */
+	margin:0 0 47px;
+}
+#filter-list li{
+	margin-top:0px;
+	/* space between buttons */
+	margin-left: 10px;
+	display: inline-block;
+	font-size: 16px;
+	color: #888888;
+	text-transform: uppercase;
+	/* height of button */
+	line-height: 38px;
+	text-align: center;
+	border:3px solid black;
+	font-weight: 500;
+	padding: 0 20px;
+	/* this is for changing width of button but it also influence other so recommend to set at first */
+	min-width: 40px;
+	cursor: pointer;
+	-webkit-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+
+}
+#filter-list li.active,
+#filter-list li:hover{
+	background-color: #4e3391;
+	color: #fff;
+}
+.gallery-outer{
+	/* image container margin left */
+	margin-left: -295px;
+	/* image container width */
+	width: 200%;
+	float: left;
+	height: auto;
+	/* padding between images */
+	padding: 0 13px;
+}
+.gallery-items li{
+	/* change this for image width */
+	width: 25%;
+	float: left;
+	padding: 0 1px 2px;
+}
+.gallery-items li img{
+	width: 100%;
+	height: auto;
+	-webkit-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+.gallery-inner{
+	width: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.gallery-overlay{
+	width: 100%;
+	position: absolute;
+	left:0;
+	top: 50%;
+	text-align: center;
+	-webkit-transform:translateY(-50%) scale(0);
+	-ms-transform:translateY(-50%) scale(0);
+	-moz-transform:translateY(-50%) scale(0);
+     transform:translateY(-50%) scale(0);
+     -webkit-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+}
+.gallery-overlay a{
+	width: 60px;
+	line-height: 60px;
+	background:#fff;
+	border-radius: 50%;
+	text-align: center;
+	display: inline-block;
+	color: #53bff0;
+	font-size: 20px;
+}
+.gallery-overlay a:hover{
+	background:#53bff0;
+	color: #fff;
+}
+.gallery-items li:hover .gallery-overlay{
+	-webkit-transform:translateY(-50%) scale(1);
+	-ms-transform:translateY(-50%) scale(1);
+	-moz-transform:translateY(-50%) scale(1);
+     transform:translateY(-50%) scale(1);
+}
+.gallery-items li:hover img{
+	-webkit-transform:scale(1.2);
+	-ms-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	transform:scale(1.2);
+}
+
+
+
+.filtr-item{
+	cursor: pointer;
+}
+
+
+@media screen and (min-width: 1px) and (max-width: 1180px) {
+
+
+	#filter-list{
+		display: inline-block;
+		border:1px solid #dddddd;
+		border-radius: 30px;
+		padding: 4px;
+		margin:0 0 60px;
+	}
+	#filter-list li{
+		display: inline-block;
+		font-size: 16px;
+		color: #888888;
+		text-transform: uppercase;
+		line-height: 50px;
+		text-align: center;
+		font-weight: 500;
+		padding: 0 20px;
+		min-width: 130px;
+		cursor: pointer;
+		-webkit-transition:all 0.3s ease-in-out;
+		-ms-transition:all 0.3s ease-in-out;
+		-moz-transition:all 0.3s ease-in-out;
+		transition:all 0.3s ease-in-out;
+	margin-top: 10px;
+	}
+	.gallery-outer{
+		width: 100%;
+		float: left;
+		height: auto;
+		padding: 0 1px;
+	}
+	.gallery-items li{
+		width: 25%;
+		float: left;
+		padding: 0 1px 2px;
+	}
+
+
+	.gallery-outer{
+		/* image container margin left */
+		margin-left: 0px;
+		/* image container width */
+		width: 100%;
+		float: left;
+		height: auto;
+		/* padding between images */
+		padding: 0 13px;
+	}
+  }

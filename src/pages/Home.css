@@ -1,0 +1,546 @@
+.homeMainMost{
+  background: white;
+}
+.divOne {
+  height: 750px;
+  width: 100%;
+  background-image: url(../psdassets/heroBackground.png);
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.divOne .firstPara {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin-top: 260px;
+  font-size: 50px;
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+
+.divOne .secondPara {
+  color: white;
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+}
+
+.divOne .divOneButtonDiv {
+  margin-top: 90px;
+}
+
+.divOne button {
+  cursor: pointer;
+  width: 180px;
+  height: 48px;
+  border-radius: 25px;
+  outline: none;
+  background: transparent;
+  border: 1px solid white;
+  font-family: "Lato", sans-serif;
+  color: white;
+  -webkit-transition: all 170ms ease-in-out;
+  transition: all 170ms ease-in-out;
+}
+
+.divOne button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.divOne button:active {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.divContainerForCenteringDivTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.divContainerForCenteringDivTwo .divTwo {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.divContainerForCenteringDivTwo .divTwo .leftSection {
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.divContainerForCenteringDivTwo .divTwo .rightSection {
+  width: 790px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.divContainerForCenteringDivTwo .divTwo .rightSection .col1,
+.divContainerForCenteringDivTwo .divTwo .rightSection .col2,
+.divContainerForCenteringDivTwo .divTwo .rightSection .col3,
+.divContainerForCenteringDivTwo .divTwo .rightSection .col4 {
+  padding-left: 150px;
+  padding-top: 40px;
+  padding-right: 220px;
+  padding-bottom: 20px;
+  margin-top: 1px;
+  height: 175px;
+  width: 100%;
+  position: relative;
+}
+
+.divContainerForCenteringDivTwo .divTwo .rightSection .col1 {
+  margin-top: 95px;
+}
+
+.divContainerForCenteringDivTwo .divTwo .rightSection .iconOne,
+.divContainerForCenteringDivTwo .divTwo .rightSection .iconTwo,
+.divContainerForCenteringDivTwo .divTwo .rightSection .iconThree,
+.divContainerForCenteringDivTwo .divTwo .rightSection .iconFour {
+  position: absolute;
+  left: 42px;
+}
+
+.divContainerForCenteringDivThree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.divContainerForCenteringDivThree .divThree {
+  height: 867px;
+  width: 1600px;
+  background-image: url(../psdassets//girlAndPc.png);
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.divContainerForCenteringDivThree .divThree .firstParaDiv {
+  font-size: 36px;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #503392;
+}
+
+.divContainerForCenteringDivThree .divThree .secondParaDiv {
+  margin-top: 52px;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+
+.divContainerForCenteringDivThree .divThree .buttonDiv {
+  margin-top: 46px;
+}
+
+.divContainerForCenteringDivThree .divThree .buttonDiv button {
+  height: 57px;
+  width: 260px;
+  background: #503392;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.divContainerForCenteringDivThree .divThree .buttonDiv button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.divContainerForCenteringDivThree .divThree .buttonDiv button:active {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.divContainerForCenteringDivThree .divThree .firstParaDiv,
+.divContainerForCenteringDivThree .divThree .secondParaDiv,
+.divContainerForCenteringDivThree .divThree .buttonDiv {
+  margin-left: 177px;
+}
+
+.divContainerForCenteringDivFour {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.divContainerForCenteringDivFour .firstParaDiv {
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  position: absolute;
+  font-size: 40px;
+  margin-top: -100px;
+}
+
+.divContainerForCenteringDivFour .secondParaDiv {
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  position: absolute;
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+.divContainerForCenteringDivFive {
+  font-family: "Lato", sans-serif;
+  margin-top: 125px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(../psdassets/violetRectangularBg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.divContainerForCenteringDivFive .col1,
+.divContainerForCenteringDivFive .col2,
+.divContainerForCenteringDivFive .col3,
+.divContainerForCenteringDivFive .col4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 3px;
+  width: 260px;
+  height: 380px;
+  color: white;
+}
+
+.divContainerForCenteringDivFive .number {
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.divContainerForCenteringDivFive .secondPara {
+  margin-top: -16px;
+}
+
+.divContainerForCenteringDivSix {
+  color: white;
+  background: #232323;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.divContainerForCenteringDivSix .firstParaDiv {
+  margin-top: 85px;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+
+.divContainerForCenteringDivSix .secondParaDiv {
+  font-weight: 400;
+  margin-top: -7px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.divContainerForCenteringDivSix .thirdParaDiv {
+  margin-top: 60px;
+}
+
+.divContainerForCenteringDivSix .thirdParaDiv p {
+  font-size: 29px;
+  font-weight: 400;
+  margin-left: 37.5%;
+  -webkit-transform: translateX(-37.5%);
+          transform: translateX(-37.5%);
+}
+
+.divContainerForCenteringDivSix .container {
+  padding: 0px;
+  margin-top: -50px;
+  font-weight: 400;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 19%;
+}
+
+.divContainerForCenteringDivSix .container .sectionOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 60px;
+  width: 571px;
+  font-weight: 400;
+}
+
+.divContainerForCenteringDivSix .container .sectionOne form {
+  font-weight: 400;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.divContainerForCenteringDivSix .container .sectionOne form input {
+  caret-color: white;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  width: 404px;
+  max-width: 504px;
+  height: 53px;
+}
+
+.divContainerForCenteringDivSix .container .sectionOne form input,
+.divContainerForCenteringDivSix .container .sectionOne form textarea,
+.divContainerForCenteringDivSix .container .sectionOne form button {
+  caret-color: white;
+  color: white;
+  margin-top: 12px;
+}
+
+.divContainerForCenteringDivSix .container .sectionOne form textarea {
+  border: 1px solid white;
+  height: 143px;
+  background: transparent;
+}
+
+.divContainerForCenteringDivSix .container .sectionOne form button {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  height: 54px;
+  width: 149px;
+  color: white;
+  background: #503392;
+  border: 1px solid white;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  outline: none;
+}
+
+.divContainerForCenteringDivSix .container .sectionOne form button:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.divContainerForCenteringDivSix .container .sectionTwo {
+  margin-left: 53px;
+  margin-top: 37px;
+  width: 444px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.divContainerForCenteringDivSix .container .sectionTwo .addressTxt {
+  font-size: 27px;
+}
+
+.divContainerForCenteringDivSix .container .sectionTwo .roadTxt {
+  margin-left: 66px;
+  margin-top: 32px;
+}
+
+.divContainerForCenteringDivSix .container .sectionTwo .phNoTxt {
+  margin-left: 66px;
+  margin-top: 32px;
+}
+
+.divContainerForCenteringDivSix .container .sectionTwo .gmailTxt {
+  margin-left: 66px;
+  margin-top: 32px;
+}
+
+.divContainerForCenteringDivSix .container .sectionTwo .iCls {
+  width: 30px;
+  height: 25px;
+  position: relative;
+  top: 100px;
+}
+
+.divContainerForCenteringDivSix .container .sectionTwo .iTwo {
+  position: relative;
+  top: 179px;
+  left: -24px;
+}
+
+.divContainerForCenteringDivSix .container .sectionTwo .iThree {
+  position: relative;
+  top: 239px;
+  left: -55px;
+}
+
+.divContainerForCenteringDivSeven {
+  height: 94px;
+  color: #555555;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #1f1f1f;
+}
+
+.divContainerForCenteringDivSeven .sectionOne {
+  width: 855px;
+}
+
+.divContainerForCenteringDivSeven .sectionOne p {
+  margin-top: 18px;
+}
+
+.divContainerForCenteringDivSeven .sectionTwo {
+  width: 298px;
+}
+
+.divContainerForCenteringDivSeven .sectionTwo img {
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+.divContainerForCenteringDivSeven .sectionTwo img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+@media only screen and (min-width: 1px) and (max-width: 552px) {
+  .iconOne,
+  .iconTwo,
+  .iconThree,
+  .iconFour {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 735px) {
+  .divTwo .leftSection {
+    height: 1px;
+    visibility: hidden;
+  }
+  .divTwo .rightSection {
+    margin-left: 10%;
+  }
+  .divContainerForCenteringDivThree .divThree .firstParaDiv {
+    margin-left: 10%;
+    width: 90%;
+    font-size: 25px;
+  }
+  .divContainerForCenteringDivThree .divThree .secondParaDiv {
+    margin-left: 10%;
+    width: 90%;
+  }
+  .divContainerForCenteringDivThree .divThree .buttonDiv {
+    margin-left: 10%;
+    width: 90%;
+  }
+  .divContainerForCenteringDivSix .container .sectionOne form input {
+    width: 90vw;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

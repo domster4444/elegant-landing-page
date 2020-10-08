@@ -1,0 +1,460 @@
+.divOne {
+
+  height: 750px;
+  width: 100%;
+  background-image: url(../psdassets/heroBackground.png);
+background-position:center ;
+background-size:cover ;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+
+  .firstPara {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    margin-top: 260px;
+    font-size: 50px;
+    width: 50%;
+    text-align: center;
+
+    color: white;
+  }
+  .secondPara {
+    color: white;
+    font-size: 25px;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+  }
+  .divOneButtonDiv {
+    margin-top: 90px;
+  }
+  button {
+    cursor: pointer;
+    width: 180px;
+    height: 48px;
+    border-radius: 25px;
+    outline: none;
+
+    background: transparent;
+    border: 1px solid white;
+    font-family: "Lato", sans-serif;
+    color: white;
+    transition: all 170ms ease-in-out;
+  }
+  button:hover {
+    transform: scale(1.2);
+  }
+  button:active {
+    transform: scale(1.3);
+  }
+}
+.divContainerForCenteringDivTwo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+align-items: center;
+flex-wrap: wrap;
+.divTwo {
+
+  margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    .leftSection {
+
+      width: 700px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .rightSection {
+      width: 790px;
+      display: flex;
+      flex-direction: column;
+
+      .col1,
+      .col2,
+      .col3,
+      .col4 {
+        padding-left: 150px;
+        padding-top: 40px;
+        padding-right: 220px;
+        padding-bottom: 20px;
+        // padding:100px 40px 220px 20px;
+        margin-top: 1px;
+        height: 175px;
+        width: 100%;
+        position: relative;
+      }
+      .col1 {
+        margin-top: 95px;
+      }
+      .iconOne,
+      .iconTwo,
+      .iconThree,
+      .iconFour {
+        position: absolute;
+        left: 42px;
+      }
+    }
+  }
+}
+
+.divContainerForCenteringDivThree {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .divThree {
+    height: 867px;
+    width: 1600px;
+    background-image: url(../psdassets//girlAndPc.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .firstParaDiv {
+      font-size: 36px;
+      font-family: "Lato", sans-serif;
+      font-weight: 300;
+      color: #503392;
+    }
+    .secondParaDiv {
+      margin-top: 52px;
+      font-size: 14px;
+      font-family: "Lato", sans-serif;
+    }
+    .buttonDiv {
+      margin-top: 46px;
+
+      button {
+        height: 57px;
+        width: 260px;
+        background: #503392;
+        color: white;
+        cursor: pointer;
+        transition: all 300ms ease;
+      }
+      button:hover {
+        transform: scale(1.2);
+      }
+      button:active {
+        transform: scale(1.3);
+      }
+    }
+    .firstParaDiv,
+    .secondParaDiv,
+    .buttonDiv {
+      margin-left: 177px;
+    }
+  }
+}
+
+// 1125 ht
+
+.divContainerForCenteringDivFour {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  .firstParaDiv {
+    width: 100%;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    position: absolute;
+    font-size: 40px;
+    margin-top: -100px;
+  }
+  .secondParaDiv {
+    width: 100%;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 0px;
+    font-size: 15px;
+  }
+}
+
+.divContainerForCenteringDivFive {
+  font-family: "Lato", sans-serif;
+
+  margin-top: 125px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  background-image: url(../psdassets/violetRectangularBg.png);
+  background-size: cover;
+  background-position: center;
+
+  .col1,
+  .col2,
+  .col3,
+  .col4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3px;
+    width: 260px;
+    height: 380px;
+    color: white;
+  }
+  .number {
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .secondPara {
+    margin-top: -16px;
+  }
+}
+
+.divContainerForCenteringDivSix {
+  color: white;
+  background: #232323;
+  display: flex;
+  font-family: "Lato", sans-serif;
+
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+
+  .firstParaDiv {
+    margin-top: 85px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+  }
+  .secondParaDiv {
+    font-weight: 400;
+    margin-top: -7px;
+
+    font-size: 14px;
+
+    text-align: center;
+  }
+  .thirdParaDiv {
+    margin-top: 60px;
+    p {
+      font-size: 29px;
+      font-weight: 400;
+
+      margin-left: 37.5%;
+      transform: translateX(-37.5%);
+    }
+  }
+  .container {
+    padding: 0px;
+    margin-top: -50px;
+
+    font-weight: 400;
+
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-right: 19%;
+    .sectionOne {
+      display: flex;
+      justify-content: center;
+      padding: 60px;
+      width: 571px;
+      font-weight: 400;
+
+      form {
+        font-weight: 400;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        input {
+          caret-color: white;
+          color: white;
+          background: transparent;
+          border: 1px solid white;
+          width: 404px;
+          max-width: 504px;
+          height: 53px;
+        }
+        input,
+        textarea,
+        button {
+          caret-color: white;
+          color: white;
+
+          margin-top: 12px;
+        }
+        textarea {
+          border: 1px solid white;
+
+          height: 143px;
+          background: transparent;
+        }
+        button {
+          font-family: "Lato", sans-serif;
+          font-weight: 400;
+          height: 54px;
+          width: 149px;
+          color: white;
+          background: #503392;
+          border: 1px solid white;
+        transition: all 300ms ease-in-out;
+        outline: none;
+        &:active{
+          transform: scale(1.1);
+        }
+        }
+        
+      }
+    }
+    .sectionTwo {
+      margin-left: 53px;
+      margin-top: 37px;
+      width: 444px;
+      font-weight: 400;
+      font-size: 13px;
+      .addressTxt {
+        font-size: 27px;
+      }
+      .roadTxt {
+        margin-left: 66px;
+
+        margin-top: 32px;
+      }
+      .phNoTxt{
+        margin-left: 66px;
+
+        margin-top:32px ;
+      }
+      .gmailTxt{
+        margin-left: 66px;
+
+        margin-top:32px ;
+
+      }
+      .iCls{
+        width: 30px;
+        height:25px ;
+        position: relative;
+        top: 100px;
+      }
+      .iOne{
+      }
+      .iTwo{
+    position: relative;
+    top: 179px;
+      
+  left: -24px;
+  }
+      .iThree{
+      
+    position: relative;
+    top: 239px;
+    left: -55px;
+      
+  }
+    }
+  }
+}
+
+
+.divContainerForCenteringDivSeven {
+  height: 94px;
+  
+color: #555555;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: center;
+background:#1f1f1f ;
+.sectionOne{
+  width: 855px;
+  p{
+    margin-top: 18px;
+  }
+}
+.sectionTwo{
+  width: 298px;
+img{
+  margin-right: 32px;
+  cursor: pointer;
+&:hover{
+  transform:scale(1.2)
+}
+}
+}
+
+}
+
+
+
+
+
+@media only screen and (min-width: 1px) and (max-width: 552px) {
+
+
+  // hiding the divTwo's Icons
+  
+  .iconOne,
+  .iconTwo,
+  .iconThree,
+  .iconFour {
+    display: none;
+  }
+
+
+
+  }
+@media only screen and (min-width: 1px) and (max-width: 735px) {
+
+ // div two
+  .divTwo .leftSection {
+      height: 1px;
+      visibility: hidden;
+    }
+    .divTwo .rightSection {
+    margin-left: 10%;
+    }
+
+
+
+
+
+    // div three
+    .divContainerForCenteringDivThree .divThree .firstParaDiv {
+
+margin-left: 10%;
+width: 90%;
+font-size: 25px;
+    }
+
+    .divContainerForCenteringDivThree .divThree .secondParaDiv {
+      margin-left: 10%;
+      width: 90%;
+      
+      
+          }
+    .divContainerForCenteringDivThree .divThree .buttonDiv {
+      margin-left: 10%;
+      width: 90%;
+      
+      
+          }
+
+       
+
+
+          .divContainerForCenteringDivSix .container .sectionOne form input{
+          width: 90vw;
+          }
+
+
+
+
+
+       
+}

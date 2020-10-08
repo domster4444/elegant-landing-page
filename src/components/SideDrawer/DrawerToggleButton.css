@@ -1,0 +1,39 @@
+.toggle-button {
+    margin-left: 10px;
+    display: flex;
+     visibility: hidden;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.toggle-button:focus {
+    outline: none;
+}
+
+.toggle-button__line {
+    width: 28px;
+    height: 3.2px;
+    background: white;
+    border-radius: 10px;
+}
+
+
+@media only screen and (min-width: 1px) and (max-width: 990px) {
+    .toggle-button {
+    
+    visibility: visible;
+
+    }
+
+
+
+}
+
+
